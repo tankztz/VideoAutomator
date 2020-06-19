@@ -34,7 +34,7 @@ def get_mp3(
         input=synthesis_input, voice=voice, audio_config=audio_config
     )
 
-    output_file_name = "output" + str(random.randint(0, 100)) + ".mp3"
+    output_file_name = "..\\output\\" + "output" + str(random.randint(0, 100)) + ".mp3"
     # The response's audio_content is binary.
     with open(output_file_name, "wb") as out:
         # Write the response to the output file.
